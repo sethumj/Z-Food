@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Z_Food</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="RestaurantDir\" />
+    <None Remove="UtilitiesDir\" />
+    <None Remove="FoodDir\" />
+    <None Remove="EnglishDir\" />
+    <None Remove="DeliveryDir\" />
+    <None Remove="CommonDir\" />
+    <None Remove="CustomerDir\" />
+    <None Remove="InitDir\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RestaurantDir\" />
+    <Folder Include="UtilitiesDir\" />
+    <Folder Include="FoodDir\" />
+    <Folder Include="EnglishDir\" />
+    <Folder Include="DeliveryDir\" />
+    <Folder Include="CommonDir\" />
+    <Folder Include="CustomerDir\" />
+    <Folder Include="InitDir\" />
+  </ItemGroup>
+</Project>
